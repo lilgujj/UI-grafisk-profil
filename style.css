@@ -27,6 +27,10 @@
   align-items: center;
   color: #9b1d20;
 }
+.p{
+  padding: 1rem;
+  font-size: 2rem;
+}
 
 span {
   margin-left: 1rem;
@@ -34,13 +38,14 @@ span {
 }
 .products {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 6.5rem;
 }
 
 .productBox {
-  margin-top: 4rem;
-  padding: 2rem;
+  padding: 1rem 2rem;
   /* margin: 0.5rem; */
 }
 
@@ -60,6 +65,7 @@ span {
   max-width: 1024px;
   height: 100vh;
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
   align-items: center;
 }
@@ -105,5 +111,8 @@ div > h3 {
   .productBox {
     margin-top: 0em;
     padding: 0em;
+  }
+  .p{
+    font-size: 1em;
   }
 }
